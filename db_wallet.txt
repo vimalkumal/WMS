@@ -1,0 +1,43 @@
+user_wallet_transection:
+	iWaletTransectionId
+	vWaletTransectionCode
+	iWalletTransectionMasterId
+	iUserId
+	fAmount
+	eStatus
+	dAddedDate
+	tParams
+
+user_wallet_template_master:
+	iWalletTemplateMasterId
+	iWalletTransectionMasterId
+	tTemplate
+
+user_wallet_transection_master:
+	iWalletTransectionMasterID
+	vWalletTransectionName
+	vWalletTransectionCode
+	tConfiguration
+
+
+user_wallet_transection( UWT )
+	1 | REW/REQ/2021/03/0001 | 1 | 2 | 120.00 | Credit | 25-03-2021 | { "AMOUNT":"120.00", 
+																		"TYPE":"Credit", 
+																		"REQ_ID":"1", 
+																		"REQUEST_CODE":"REW/REQ2021/03/2021"}
+	2 | REW/REQ/2021/03/0002 | 1 | 3 | 150.00 | Credit | 26-03-2021 | { "AMOUNT":"120.00", 
+																		"TYPE":"Credit", 
+																		"REQ_ID":"1", 
+																		"REQUEST_CODE":"REW/REQ2021/03/2021"}
+	3 | REW/REQ/2021/03/0005 | 1 | 2 | 100.00 | Credit | 27-03-2021 | { "AMOUNT":"100.00", 
+																		"TYPE":"Credit", 
+																		"REQ_ID":"1", 
+																		"REQUEST_CODE":"REW/REQ2021/03/2021"}
+
+user_wallet_template_master:( UWTM )
+	1 | 1 | #AMOUNT# Point #TYPE# from the Request #REQUEST_CODE#
+	2 | 2 | #AMOUNT# Point #TYPE# from the voucher #VOUCHER_CODE#
+
+user_wallet_transection_master: (UWTM)
+	
+	1 | Credit User Point | credit_user_point | 		

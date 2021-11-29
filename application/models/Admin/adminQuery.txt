@@ -1,0 +1,32 @@
+SELECT    
+MONTH(r.dtAddedDate ) AS Month,
+YEAR(r.dtAddedDate  ) AS Year,
+COUNT(*) As Number_OF_Request
+FROM      request As r 
+WHERE     YEAR(r.dtAddedDate) = YEAR(NOW()) 
+GROUP BY  MONTH(r.dtAddedDate)
+
+
+queary of last 7 day
+ SELECT    
+ Day(r.dtAddedDate) AS Day,
+ YEAR(r.dtAddedDate  ) AS Year,
+ COUNT(*) As Number_OF_Request
+ FROM      request As r 
+ WHERE     YEAR(r.dtAddedDate) = YEAR(NOW()) AND
+ r.dtAddedDate > now() - INTERVAL 7 day
+ GROUP BY  DAY(r.dtAddedDate)
+
+
+
+
+ SELECT
+    p.vProductName AS ProductName,
+    COUNT(p.iProductId) AS Total
+FROM
+    request_item as ri,
+    product as p
+WHERE
+    ri.iProductId=p.iProductId 
+GROUP BY
+    p.iProductId

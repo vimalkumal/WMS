@@ -1,0 +1,62 @@
+---------------------- ------- 22-03-2021 ---------------------- ------- 
+
+Task :
+16. add validation in place order Add/Edit.*
+10. Create Rewared Wallate View .(Done)
+11. Careate WallateBalance Trancection View User side. (Done)
+14. If Any Update From have a error then it's redirect to the those form.*
+15. Change the alert message name in request and request item page in all role*
+
+Done Point:
+1. login and session.	(DONE) 24/03/2021
+2. Change the Place order View as per sir say's.		   	(DONE) 
+3. Agency Approve form Create.								(DONE)
+4. Add ajax in aprove request							   	(DONE)
+5. Add Product Reward.				 (DONE)
+12. Add Validation in Address Form.  (DONE)
+13. Add wallate field in User Table. (DONE)
+9. Add Product Rewared Point Fields at product Table. and add in product form also.(DONE)
+6. change date format of in Place order from at user side. (DONE)
+7. change the reques code formate {Hint:echo sprintf('%08d', $var);} (DONE)
+8. Edit/Cancel Request till at user side Admin Can't Aprove. (DONE)
+
+QA:
+ 1. set lat/long validation in User Address.
+---------------------- -------  24-03-2021 ---------------------- ------- 
+
+Task:
+ 	
+2. Create Rewared Wallate View .
+3. Careate WallateBalance Trancection View Agency side / User side.
+5. Recored not foun Page.*
+10. place order value not =0;
+11. Request Collected Success message not view.
+
+Done:
+4. Creae one trigger fore add wallate balance in user wallate. (Done)
+6. Display agency detail and it's owner detail front of Admin/User (Done)
+8. Display User Detail in Request Detail View.	(DONE)
+9. form validation in Edit and Collect order.	(Done)
+QA:
+
+1. can we show request rewared detail in request page in Agency side.(Done)
+2.  
+
+---------------------- -------  25-03-2021 ---------------------- ------- 
+1. user can upload there profile. (In Progress)
+2. add collect from at admin side.(Done)
+
+3. check all sql injection.(User side Done)
+4. rewared point in request detail view.(User side | Agency side)
+5. add ajax in user profile.(Done)
+6. change the first name top of the header;	(Done)
+7. add one title fiels in adddress from.
+
+---------------------- -------  25-03-2021 ---------------------- ------- 
+1. Edit Agency Detail form (Done)
+2. user uploade there pic
+3. one bug whene agency add and update time country,state recored add wrong.
+4. agency add form bug [is_agency_exist]
+5. agency can show only there request 
+6. add address title field in address from.
+7. 

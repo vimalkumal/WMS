@@ -1,0 +1,6 @@
+Add Ajex in Form:
+	Registration 
+	agency registration 
+	agency edit page
+Login settings
+

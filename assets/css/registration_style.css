@@ -1,0 +1,46 @@
+.container {
+	margin-top: 60px;
+	width:800px;
+	min-height: max-content;
+	padding: 10px;
+}
+#cycle{
+	height: inherit;
+	width: inherit;
+	padding-top: 70px;
+}
+.reg-title{
+	font-family: emoji;
+    margin: 7px 0px 7px 0px;
+    font-weight: bold;
+    color: #1b5e20;
+    font-size: 25px;
+}
+.form-image {
+	background-color: #8bc34a; 
+}
+.form-contant{
+	background-color: #c5e1a5;
+}
+.login-title{
+	margin-bottom: 10px;
+}
+.tooltip-custom{
+	position: absolute;
+	top: 13px;
+	right: 0px;
+	color: green;
+}
+
+/*header*/
+.header-nav{
+	background-color: #dcedc8;
+}
+.alert{
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+.error{
+	color: red;
+}

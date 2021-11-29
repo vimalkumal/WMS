@@ -1,0 +1,42 @@
+.tab-item{
+	background-color: #F1F8E9;
+}
+#myTabContent > .active{
+	color: #000;
+	background-color: #fff;
+}
+.tab-li > .active > .tab-item{
+	background-color: #fff;
+}
+
+.tab-li{
+	background-color: #F1F8E9;
+	text-align: center;
+	width: 115px;
+}
+.tab-icon{
+	display: table;
+	margin-right: 15px;
+	margin-left: 15px;
+	min-width: 80px;
+}
+.tab-item {
+    font-size: 18px;
+    line-height: 34px;
+   
+
+}
+.strip > .title-strip > i{
+	margin-right: 10px;
+}
+.nav-link{
+	text-align: center;
+}
+.nav-link:hover{
+	
+	box-shadow: none;
+	text-align: center;
+}
+#myTabContent{
+	color: black;
+}
